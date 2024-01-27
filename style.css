@@ -1,3 +1,4 @@
+/* Center the stopwatch container */
 .container {
     display: flex;
     justify-content: center;
@@ -6,6 +7,7 @@
     background-image: linear-gradient(to right, #FF416C, #FF4B2B);
 }
 
+/* Style the stopwatch */
 .stopwatch {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
@@ -15,6 +17,7 @@
     animation: pulse 1s infinite alternate;
 }
 
+/* Style the timer display */
 .display {
     font-size: 4em;
     margin-bottom: 20px;
@@ -22,6 +25,7 @@
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* Style the control buttons */
 button {
     margin: 0 10px;
     padding: 12px 24px;
@@ -35,15 +39,18 @@ button {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
+/* Hover effect for buttons */
 button:hover {
     transform: translateY(-2px);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
+/* Active effect for buttons */
 button:active {
     transform: translateY(2px);
 }
 
+/* Animation for the stopwatch */
 @keyframes pulse {
     0% {
         transform: scale(1);
